@@ -2,7 +2,7 @@
 **schnelle Variante zur Einrichtung einer Wireguard Schnittstelle mit nmcli (NetworkManager)**
 
 >Immer mehr Linux Disributionen nutzen NetworkManager zur Verwaltung der Netzwerkschnittstellen.
->Traditionell waren für Wireguard `openresolve` oder `resolveconf` zur Namensauflösung vorgesehen. Unter Ubuntu 24.04 wird aber `sytemd-resolved` dafür verwendet, was bei Verwendung des Wireguard-Tools wg-quick zu Konflikten führen kann.
+>Traditionell waren für die Wireguard-Tools `openresolve` oder `resolveconf` zur Namensauflösung vorgesehen. Unter Ubuntu 24.04 wird aber `sytemd-resolved` dafür verwendet, was bei Verwendung des Wireguard-Tools `wg-quick` zu Konflikten führen kann.
 >Anstatt wg-quick zu verwenden, kann die Wireguard-Schnittstelle auch sehr einfach mit dem Networkmanager-Tool `nmcli` hinzugegfügt werden.
 >Die folgende Variante funktioniert auch sehr gut mit dem RasperryPi OS bookworm.
 
